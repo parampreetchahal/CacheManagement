@@ -1,4 +1,3 @@
-Perfect! You can directly copy and paste the following into your `README.md` file on GitHub:
 
 ---
 
@@ -18,12 +17,14 @@ This project provides a web-based interface to visualize how a **Least Recently 
 
 ```
 
+```markdown
 📦try2 - backup
 ├── index.html         # Main UI interface
 ├── main.js            # Handles user interaction logic
 ├── styles.css         # Stylesheet for the UI
 ├── init.py            # Initializes the backend (possibly Redis)
 └── init-terminal.py   # Terminal-based utility for backend
+```
 
 ````
 
@@ -84,5 +85,4 @@ Feel free to contribute and enhance the project!
 
 ---
 
-✅ Just paste it into the GitHub editor where it says `Enter file contents here` (like in your screenshot) and hit **"Commit changes..."** when you're ready. Let me know if you want to include badges, demo screenshots, or add Flask/Redis setup details!
 ```
