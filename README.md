@@ -67,6 +67,11 @@ This tool is ideal for:
 * Demonstrating cache eviction in real-time.
 * Educational and academic purposes.
 
+## 🌐 Live
+```
+https://cachemanagementlru.netlify.app
+```
+
 ## 🧑‍💻 Author
 
 * **Parampreet Singh**
