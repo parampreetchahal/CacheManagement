@@ -41,7 +41,6 @@ This project provides a web-based interface to visualize how a **Least Recently 
    ```bash
    git clone https://github.com/your-username/cache-visualizer.git
    cd cache-visualizer
-````
 
 2. **Start the Backend:**
 
