@@ -860,7 +860,7 @@ canvas {
 }
 .simulation-content {
     position: relative;
-    background: #fff;
+    background: radial-gradient( rgba(0,0,0,1),  rgb(45, 43, 43));
     border-radius: 10px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.25);
     padding: 2em 2em 1.5em 2em;
@@ -870,26 +870,30 @@ canvas {
     width: 95vw;
 }
 .simulation-header {
+    background-color: #212529;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 1em;
+    border-radius: 4px;
 }
 .simulation-header h2 {
+    
     margin: 0;
     font-size: 1.4em;
 }
 .close-simulation {
+    margin-left: 330px;
     background: none;
     border: none;
     font-size: 2em;
-    color: #888;
+    color: #db1a1a;
     cursor: pointer;
     line-height: 1;
 }
 .status {
     font: 1.2em "Times New Roman", serif;
-    background: #f4f4f4;
+    background: #212529;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     padding: 12px;
@@ -906,6 +910,7 @@ canvas {
     cursor: pointer;
     font-size: 20px;
     padding: 10px 20px;
+    border: none;
 }
 .simulation-controls .miss {
     background-color: #f44336;
@@ -920,7 +925,7 @@ canvas {
     position: relative;
     height: 400px;
     margin-top: 30px;
-    background-color: #e8e3e3;
+    background: rgba(206, 203, 203, 0.4);
     border-radius: 5px;
 }
 #cpu-wrapper {
