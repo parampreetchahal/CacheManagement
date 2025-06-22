@@ -288,6 +288,8 @@ uploadBtn.addEventListener('click', () => {
         const entry = cache.map.get(file.name);
         const isHit = entry && (Date.now() - entry.addedAt < entry.ttl);
 
+        startSimulation(isHit);
+
         searchFileInCache(file.name); // Log hit/miss and update stats
 
         console.log("File uploaded:", file.name);
@@ -738,13 +740,8 @@ window.startSimulation = function (hit) {
 }
 
 // Modal open/close logic
-document.getElementById('show-simulation-btn').onclick = function () {
-    document.getElementById('simulationModal').classList.remove('hidden');
-    setTimeout(updateLines, 100); // Ensure lines are drawn after modal is visible
-};
-document.getElementById('closeSimulation').onclick = function () {
-    document.getElementById('simulationModal').classList.add('hidden');
-};
+
+
 window.addEventListener('resize', updateLines);
 
 
