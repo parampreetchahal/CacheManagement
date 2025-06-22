@@ -698,8 +698,9 @@ window.startSimulation = function (hit) {
             const step3 = connectElements(cpu, memory, lineMemory, container);
             lineMemory.classList.add('red');
 
-            // hFile.style.left = `${step3.x1 - 10}px`;
+            // Set both top and left to align the start position
             hFile.style.top = `${step3.y1 - 10}px`;
+            hFile.style.left = `${step3.x1 - 10}px`;
             hFile.style.transform = `rotate(${step3.angle}deg) translateX(0px)`;
 
             requestAnimationFrame(() => {
@@ -707,6 +708,7 @@ window.startSimulation = function (hit) {
                 hFile.style.transform = `rotate(${step3.angle}deg) translateX(${step3.distance}px)`;
             });
         }, 4000);
+
 
         // Step 4: Main Memory → CPU (GREEN LINE)
         setTimeout(() => {
