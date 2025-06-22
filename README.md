@@ -1,7 +1,6 @@
 
 ---
 
-
 # 🧠 Cache Visualizer (LRU) – Web Interface
 
 This project provides a web-based interface to visualize how a **Least Recently Used (LRU)** cache works. It allows users to interact with the cache operations and see real-time updates through a simple frontend interface built with HTML, CSS, and JavaScript, supported by a Python backend.
@@ -18,12 +17,14 @@ This project provides a web-based interface to visualize how a **Least Recently 
 
 
 ```
-📦try2 - backup
+📦CacheManagement
+├──TerminalBased
+   ├──init.py
+   ├──README.md
 ├── index.html         # Main UI interface
 ├── main.js            # Handles user interaction logic
 ├── styles.css         # Stylesheet for the UI
-├── init.py            # Initializes the backend (possibly Redis)
-└── init-terminal.py   # Terminal-based utility for backend
+├──README.md
 ```
 
 
