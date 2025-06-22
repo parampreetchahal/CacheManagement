@@ -17,13 +17,14 @@ This project provides a web-based interface to visualize how a **Least Recently 
 
 
 
-
+```
 📦try2 - backup
 ├── index.html         # Main UI interface
 ├── main.js            # Handles user interaction logic
 ├── styles.css         # Stylesheet for the UI
 ├── init.py            # Initializes the backend (possibly Redis)
 └── init-terminal.py   # Terminal-based utility for backend
+```
 
 
 ## 🛠️ How to Run
