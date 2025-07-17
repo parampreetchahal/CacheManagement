@@ -76,6 +76,9 @@ https://cachemanagementlru.netlify.app
 ## 🧑‍💻 Author
 
 * **Parampreet Singh**
+* **Priyanshu Mittal**
+* **Gagan Deep Singh**
+* **Jiya Agrawal**
 
 ## 📜 License
 
